@@ -65,13 +65,12 @@ e.g. if you have set the Packet Rate to 200Hz, 0/200 means 0 bad packets and 200
 ![Lua3](../assets/images/lua3.jpg)
 with crossfire Tools you can see them as the Bad and Good parameters as in the picture above.
 
-
 ![Lua4](../assets/images/lua4.jpg)
 with the ELRS.lua you will see them also at the top of the page where the value will be updated in a consistent and faster rate. (picture above)
 
 bonus tips : ELRS.lua also works as TELEMETRY Script.
 
-The second number should match the selected packet rate (200 for 200Hz, 500 for 500Hz, etc..)
+The value should match the selected packet rate (200 for 200Hz, 500 for 500Hz, etc..)
 
 If it doesn't and is stuck at 250 that means `CRSFshot` isn't working. Go back to the top of this page and verify you've done all the steps above correctly.
 
